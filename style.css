@@ -1,95 +1,86 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f4e4ba;
-}
-
-.main_div{
-    background-color: #ffffff;
+  }
+  
+  .container {
+    background-color: #fff;
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
     width: 40vh;
-    
-}
-.form{
-   
-    margin-top: 20px;
-}
-.input_number{
-    min-height: 5vh;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid grey;
-    margin-top: 10px;
-    padding-left: 10px;
-}
-.dropdown{
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
-}
-.From{
-    display: flex;
-    flex-direction: column;
-}
-.from_drop{
-    display: flex;
     align-items: center;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 3px;
-    margin-top: 10px;
-}
-.To{
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
     display: flex;
-    flex-direction: column;
-}
-.to_drop{
-    display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 3px;
-    margin-top: 10px;
-}
-#from_logo{
-    height: 30px;
-}
-#to_logo{
-    height: 30px;
-}
-#select_to{
-    height: 25px;
-    background-color: transparent;
-    border: none;
-}
-#select_from{
-    height: 25px;
-    background-color: transparent;
-    border: none;
-}
-#exchange_logo{
-    margin-top: 10px;
-}
-#exchange_text{
-    margin-top: 20px;
-}
-#submit_btn{
-    margin-top: 10px;
-    width: 100%;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    color: white;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  form button {
+    height: 3rem;
     background-color: #af4d98;
+    color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
-}
+  }
+  .msg2{
+    font-size: 11px;
+    margin-top: 15px;
+  }
